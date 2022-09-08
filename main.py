@@ -11,6 +11,7 @@ app=Flask(__name__)
 cors = CORS(app)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgre@localhost/flasksql'
+#app.py = app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgresql@186.170.222.176/registraduria_be'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)

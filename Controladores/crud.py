@@ -1,5 +1,5 @@
 from main import db
-from Modelos import Mesa2
+from Modelos import Mesas3
 '''
 #Crear
 #db.create_all()
